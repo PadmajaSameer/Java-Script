@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+</head>
+<body>
+<h2>Java Script if...else</h2>
+
+<p id="demo"></p>
+<form>
+<label for="age">Age: </lable>
+<input type="text" id="Age",name="Age"><br><br>
+<input type="button" value="button" onclick="ageCheck()">
+</form>
+
+<script>
+function ageCheck()
+{
+let age=document.getElementById("Age").value;
+let message;
+if(age>18)
+{
+		message="Ur eligible for vote";
+}
+else
+{
+	message="Ur not eligible for vote";
+}
+	
+document.getElementById("demo").innerHTML=message;
+}	
+	
+</script>
+
+<Script>
+	let text="";
+	
+	for(let i=0; i<5; i++)
+	{
+		text+="The number is " + i + "<br>";
+		
+	}
+	document.getElementById("demo").innerHTML=text;
+</Script
+
+
+<script>
+const person={fname : "Mayuresh", lname:"Rathod", age : 25};
+let txt="";
+
+for(let x in person)
+{
+	txt+=person[x] + " ";
+} 
+document.getElementById("demo").innerHTML=txt;
+</script>
+
+<Script>
+	let text="";
+	let i=0;
+	while(i<10)
+	{
+		text+="<br> the number is " + i;
+		i++;
+	}
+	document.getElementById("demo").innerHTML=text;
+</Script>
+
+<Script>
+for(let i=0; i<5; i++)
+	{
+	if(i === 3)
+	{ break ;}
+	text+="The number is " + i + "<br>";
+	}
+	document.getElementById("demo").innerHTML=text;
+</Script
+
+<Script>
+for(let i=0; i<5; i++)
+	{
+	if(i === 3)
+	{ continue ;}
+	text+="The number is " + i + "<br>";
+	}
+	document.getElementById("demo").innerHTML=text;
+</Script>
+
+<Script>
+	let txt;
+	
+	switch()
+	{
+		case 0:
+		txt="Jan";
+		
+	}
+</script>
+</body>
+</html>
+
+	

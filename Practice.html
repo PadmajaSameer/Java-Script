@@ -1,0 +1,99 @@
+
+<!--Function-- Script inside the body and inside the head section--> 
+
+<!-- script can be place in external file also with .js.. extension External scripts are practical when the same code is used in many different web pages.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo1").innerHTML = "Paragraph changed hua.";
+}
+</script>
+</head>
+<body>
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph</p>
+<p id="demo1> Some data</p>
+<button type="button" onclick="myFunction()">Try me</button>
+
+</body>
+</html>
+
+
+<!-- Using inner html-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 10+20;
+</script>
+
+</body>
+</html>
+
+
+<!-- using document.write()-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+
+<script>
+document.write(5 + 6);
+</script>
+
+</body>
+</html>
+
+<!--USING WINDOWS.alert-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My first paragraph.</p>
+
+<script>
+window.alert(5 + 6);
+</script>
+
+</body>
+</html>
+
+
+<!--JavaScript Variables
+In a programming language, variables are used to store data values.
+
+JavaScript uses the keywords var, let and const to declare variables.-->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Arithmetic</h1>
+<h2>Arithmetic Operations</h2>
+<p>A typical arithmetic operation takes two numbers (or expressions) and produces a new number.</p>
+
+<p id="demo"></p>
+
+<script>
+let a = 3;
+let x = (100 + 50) * a;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>-->
